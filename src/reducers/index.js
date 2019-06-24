@@ -1,0 +1,1 @@
+import { combineReducers } from 'redux'import shops, { SHOPS_DEFAULT_STATE } from './shops'const shopApp = combineReducers({ shops })export const DEFAULT_STATE = {    shops: SHOPS_DEFAULT_STATE}export default shopApp
